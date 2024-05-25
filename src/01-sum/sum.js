@@ -1,7 +1,8 @@
-function sum(a,b){
-    if(a===undefined || b=== undefined){
-        return "hubo un error"
+function sum(a, b) {
+    if (a ===undefined||b===undefined){
+        return "ERROR";
     }
-    return a+b
+    return a + b
 }
+
 module.exports = sum;
